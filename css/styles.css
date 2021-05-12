@@ -101,11 +101,12 @@ body{
 
 @media (max-width: 992px){
 	.navbar{
-		height: 100px;
+		height: 150px;
 		padding: 12px;
 	}
 	.navbar .inner_navbar{
 		flex-direction: column;
+		
 	}
 	.main_container{
 		margin-top: 100px;
@@ -114,17 +115,17 @@ body{
 
 @media (max-width: 728px){
 	.navbar{
-		height: 60px;
+		height:100px;
 	}
 	.navbar .inner_navbar{
 		flex-direction: row;
+		
 	}
-	.main_container{
-		margin-top: 60px;
-	}
+	
 	.navbar .menu ul{
 		position: absolute;
 		top: 60px;
+		margin-top: 40px;
 		left: 0;
 		display: block;
 		background: #090f1b;
@@ -133,12 +134,14 @@ body{
 	}
 	.navbar .menu ul li{
 		padding: 10px;
+	
 	}
 	.navbar .menu ul li a{
 		width: 100%;
 		padding: 12px;
 	}
 	.navbar .hamburger{
+		margin-top:25px;
 		display: block;
 		position: absolute;
 		top: 15px;
@@ -160,4 +163,9 @@ body{
 	.main_container .content .item_wrap{
 		width: 100%;
 	}
+}
+@media (max-width:500px)
+{.logo {width:180px; height: 60px;}
+.logo img {width: 180px; height: 60px;}
+	.navbar{background: -webkit-linear-gradient(left,rgb(14, 14, 14),#0eaed6 95%);}
 }
