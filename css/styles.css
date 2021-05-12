@@ -129,6 +129,7 @@ body{
 		display: block;
 		background: #090f1b;
 		width: 100%;
+		z-index: 99;
 	}
 	.navbar .menu ul li{
 		padding: 10px;
